@@ -1,0 +1,119 @@
+{
+  "theme": "DNL Adjusted: Catppuccin",
+  "vim_mode": false,
+  "ui_font_size": 20,
+  "ui_font_family": "Berkeley Mono",
+  "relative_line_numbers": false,
+  "ui_font_features": {
+    "calt": true,
+    "liga": true,
+    "dlig": true,
+    "tnum": true,
+    "case": true,
+    "ss01": true,
+    "ss02": true,
+    "ss03": true,
+    "ss04": true,
+    "ss05": true,
+    "ss06": true,
+    "ss07": true,
+    "ss08": true,
+    "ss09": true,
+    "ss10": true,
+    "zero": true,
+    "onum": true,
+    "salt": true
+  },
+  "buffer_font_size": 20,
+  "buffer_line_height": "comfortable",
+  "buffer_font_family": "Berkeley Mono",
+  "buffer_font_features": {
+    "calt": true,
+    "liga": true,
+    "dlig": true,
+    "tnum": true,
+    "case": true,
+    "ss01": true,
+    "ss02": true,
+    "ss03": true,
+    "ss04": true,
+    "ss05": true,
+    "ss06": true,
+    "ss07": true,
+    "ss08": true,
+    "ss09": true,
+    "ss10": true,
+    "zero": true,
+    "onum": true,
+    "salt": true
+  },
+  "confirm_quit": true,
+  "show_whitespaces": "none",
+  "soft_wrap": "preferred_line_length",
+  "preferred_line_length": 100,
+  "project_panel": {
+    "default_width": 240,
+    "dock": "left",
+    "indent_size": 18,
+    "auto_fold_dirs": true,
+    "file_icons": true,
+    "button": false,
+    "git_status": false
+  },
+  "gutter": {
+    "line_numbers": true,
+    "code_actions": true,
+    "folds": true
+  },
+  "tabs": {
+    "git_status": false,
+    "close_position": "right"
+  },
+  "collaboration_panel": {
+    "dock": "right"
+  },
+  "tab_bar": {
+    "show_nav_history_buttons": false,
+    "show": true
+  },
+  "toolbar": {
+    "breadcrumbs": true,
+    "quick_actions": false
+  },
+  "assistant_v2": {
+    "enabled": false
+  },
+  "terminal": {
+    "dock": "right",
+    "font_size": 17,
+    "font_family": "Berkeley Mono",
+    "line_height": "comfortable",
+    "font_features": {
+      "calt": true,
+      "liga": true,
+      "dlig": true,
+      "tnum": true,
+      "case": true,
+      "ss01": true,
+      "ss02": true,
+      "ss03": true,
+      "ss04": true,
+      "ss05": true,
+      "ss06": true,
+      "ss07": true,
+      "ss08": true,
+      "ss09": true,
+      "ss10": true,
+      "zero": true,
+      "onum": true,
+      "salt": true
+    }
+  },
+  "languages": {
+    "JavaScript": {
+      "code_actions_on_format": {
+        "source.fixAll.eslint": true
+      }
+    }
+  }
+}
