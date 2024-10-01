@@ -1,4 +1,16 @@
 {
+  "outline_panel": {
+    "dock": "left"
+  },
+  "assistant": {
+    "enabled": false,
+    "version": "2",
+    "dock": "left",
+    "default_model": {
+      "provider": "zed.dev",
+      "model": "claude-3-5-sonnet-20240620"
+    }
+  },
   "theme": "DNL Adjusted: Catppuccin",
   "vim_mode": false,
   "ui_font_size": 20,
@@ -26,6 +38,7 @@
   },
   "buffer_font_size": 20,
   "buffer_line_height": "comfortable",
+  "double_click_in_multibuffer": "open",
   "buffer_font_family": "Berkeley Mono",
   "buffer_font_features": {
     "calt": true,
@@ -47,18 +60,16 @@
     "onum": true,
     "salt": true
   },
-  "confirm_quit": true,
-  "show_whitespaces": "none",
   "soft_wrap": "preferred_line_length",
   "preferred_line_length": 100,
   "project_panel": {
     "default_width": 240,
     "dock": "left",
-    "indent_size": 18,
+    "indent_size": 20,
     "auto_fold_dirs": true,
     "file_icons": true,
     "button": false,
-    "git_status": false
+    "git_status": true
   },
   "gutter": {
     "line_numbers": true,
@@ -67,7 +78,8 @@
   },
   "tabs": {
     "git_status": false,
-    "close_position": "right"
+    "close_position": "right",
+    "file_icons": true
   },
   "collaboration_panel": {
     "dock": "right"
